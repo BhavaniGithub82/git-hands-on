@@ -5,7 +5,7 @@
 ```powershell
 # Let's teach PowerShell some macOS commands
 
-# 1. `touch <file>` creates an empty file
+# 1. `touch <file>` creates an empty file 1
 function touch ($Path) { Add-Content $Path $null }
 # 2. `open <path>` opens Explorer/Finder
 Set-Alias open start
